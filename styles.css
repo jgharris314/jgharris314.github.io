@@ -1,0 +1,148 @@
+/* grey #32353c
+    teal #00858a
+    orange #e46e00 */
+
+html {
+    background-color: #32353c;
+    color: #c0c0c0;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 1)), url("src/ken.jpg");
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+     
+}
+
+
+header img {
+    margin-bottom: 10px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px #e46e00;
+}
+
+#introPhoto h1 {
+    margin-bottom: 3px;
+    margin-top: 10px;
+    font-size: 48px;
+    border-bottom: 1px dotted #00858a;
+}
+
+#introPhoto h4 {
+    margin: 0px;
+    font-size: 28px;
+}
+
+footer nav ul {
+    display: flex;
+    padding-left: 0;
+}
+
+footer nav ul li a {
+    text-decoration: none;
+    color: #c0c0c0;
+    list-style: none;
+    width: 100%;
+}
+
+footer nav ul li:last-child a {
+    margin-right: 0;
+    
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+}
+
+.group {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 5%;
+    
+}
+
+.item {
+    display: flex;
+    flex-flow: row wrap;
+    overflow: hidden;
+    align-content: center;
+    
+}
+
+.item img {
+    display: block;
+    width: 100%;
+   
+}
+
+.navGroup {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.navItem {
+    
+    display: inline-flex;
+    flex: 1;
+    box-shadow: 0 0 4px #00858a;
+    margin: 0 10px 0 10px ;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+#contact {
+    margin-bottom: 20%;
+}
+
+#intro {
+   /* border-bottom: 3px ridge #00858a;
+   border-right: 3px ridge #00858a; */
+   box-shadow: 0 0 10px #00858a;
+   padding-left: 5%;
+   padding-right: 5%;
+   font-size: 18px;
+   border-radius: 20px;
+}
+
+#project {
+    box-shadow: 0 0 1px  #00858a;
+    text-align: center;
+    align-content: center;
+    margin-bottom: 10px;
+    padding: 5%;
+}
+
+#introPhoto img{
+    border-radius: 30px;
+    box-shadow: 0 0 10px  #00858a;
+    height: 375px;
+}
+
+#project h2 {
+    align-content: center;
+}
+
+#project a {
+    background-color: #ffffff;
+}
+
+.formItem {
+    display: inline-flex;
+    margin: 0 10px 5px 10px ;
+    flex: 1;
+}
+
+#form {
+    display: inline-flex;
+    flex-flow: row;
+}
+
+#footerGroup {
+    margin: 0;
+    padding: 0;
+}
+
+
