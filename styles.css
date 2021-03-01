@@ -12,7 +12,9 @@ html {
      
 }
 
-
+main {
+    align-content: center;
+}
 header img {
     margin-bottom: 10px;
     border-radius: 20px;
@@ -24,11 +26,19 @@ header img {
     margin-top: 10px;
     font-size: 48px;
     border-bottom: 1px dotted #00858a;
+    
 }
 
 #introPhoto h4 {
     margin: 0px;
     font-size: 28px;
+}
+
+#introPhoto {
+    text-align: center;
+}
+#introPhoto img {
+    margin: 5%;
 }
 
 footer nav ul {
@@ -56,6 +66,17 @@ footer {
     background-color: black;
 }
 
+h1 {
+    justify-content: center;
+}
+
+h4 {
+    justify-content: center;
+}
+h2 {
+    justify-content: center;
+    text-align: center;
+}
 .group {
     display: flex;
     flex-direction: column;
@@ -67,8 +88,9 @@ footer {
 .item {
     display: flex;
     flex-flow: row wrap;
-    overflow: hidden;
     align-content: center;
+    justify-content: center;
+    
     
 }
 
@@ -146,3 +168,68 @@ footer {
 }
 
 
+
+@media all and (min-width: 515px){
+    html {
+        background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1));
+        background-position: center;
+    }
+    body {
+        margin-top: 0;
+    }
+    header img {
+        margin-bottom: 10px;
+        border-radius: 20px;
+        box-shadow: 5px 5px 10px #e46e00;
+        width: 100%;
+    }
+
+    .group {
+        flex-direction: row;
+        align-content: center;
+    }
+
+    .group h2 {
+        width: 100%;
+    }
+
+    .item {
+        flex-direction: column nowrap;
+        font-size: 18px;
+        
+        width: 100%;
+       
+    }
+    
+   #introPhoto{
+       padding: 0 15%;
+       justify-content: space-around;
+   }
+    #nameDiv {
+        text-align: center;
+        flex: 1;
+        flex-direction: column; 
+        max-width: 500px;
+        
+    }
+    #contact{
+        justify-content: center;
+        
+    }
+    #form{
+        width: 350px;
+        flex-flow: column;
+        
+    }
+
+    #projectGroup h2{
+       text-align: center;
+       flex-direction: row;
+    }
+
+    #selfie {
+        max-width: 350px;
+    }
+  
+   
+}
