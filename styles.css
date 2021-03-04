@@ -46,11 +46,12 @@ footer nav ul {
     padding-left: 0;
 }
 
-footer nav ul li a {
+ul li a {
     text-decoration: none;
     color: #c0c0c0;
     list-style: none;
     width: 100%;
+    margin: 5px;
 }
 
 footer nav ul li:last-child a {
@@ -115,6 +116,20 @@ h2 {
     border-radius: 20px;
 }
 
+.socialGroup {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.socialItem { 
+    display: flex;
+    flex: 1;
+}
+
+.socialItem img {
+    background-color: #c0c0c0;
+}
+
 #contact {
     margin-bottom: 20%;
 }
@@ -169,10 +184,13 @@ h2 {
 
 
 
+
+
 @media all and (min-width: 515px){
     html {
         background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1));
         background-position: center;
+        
     }
     body {
         margin-top: 0;
@@ -188,6 +206,7 @@ h2 {
         flex-direction: row;
         align-content: center;
     }
+
 
     .group h2 {
         width: 100%;
@@ -227,9 +246,15 @@ h2 {
        flex-direction: row;
     }
 
-    #selfie {
-        max-width: 350px;
+    
+    
+    #intro {
+        margin-left: 25%;
+        margin-right: 25%;
     }
-  
    
+    #selfie {
+    
+        max-width: 300px;
+    }
 }
