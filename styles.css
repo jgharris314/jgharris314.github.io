@@ -144,12 +144,22 @@ h2 {
    border-radius: 20px;
 }
 
-#project {
+.projectItem {
+    display: flex;
+    flex-flow: row wrap;
+    align-content: center;
+    justify-content: center;
     box-shadow: 0 0 1px  #00858a;
     text-align: center;
     align-content: center;
     margin-bottom: 10px;
     padding: 5%;
+}
+
+.projectItem img {
+    display: block;
+    width: 100%;
+   
 }
 
 #introPhoto img{
@@ -158,11 +168,11 @@ h2 {
     height: 375px;
 }
 
-#project h2 {
+.projectItem h2 {
     align-content: center;
 }
 
-#project a {
+.projectItem a {
     background-color: #ffffff;
 }
 
@@ -260,5 +270,12 @@ h2 {
     #selfie {
     
         max-width: 300px;
+    }
+
+    .projectItem {
+        flex-direction: column nowrap;
+        font-size: 18px;
+        
+        width: 100%;
     }
 }
