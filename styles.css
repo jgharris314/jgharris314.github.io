@@ -219,6 +219,10 @@ h2 {
         width: 100%;
        
     }
+    #abt {
+        margin-left: 25%;
+        margin-right: 25%;
+    }
     
    #introPhoto{
        padding: 0 15%;
