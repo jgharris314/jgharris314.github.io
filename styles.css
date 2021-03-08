@@ -85,6 +85,7 @@ h3 {
         justify-content: center;
         text-align: center;
         font-size: 28px;
+        
 }
 
 .socialGroup img {
@@ -156,6 +157,7 @@ h3 {
    padding-right: 5%;
    font-size: 18px;
    border-radius: 20px;
+   display: block;
 }
 
 .projectItem {
@@ -236,6 +238,7 @@ label,input {
         align-content: center;
     }
 
+    
 
     .group h2 {
         width: 100%;
@@ -251,6 +254,7 @@ label,input {
     #abt {
         margin-left: 25%;
         margin-right: 25%;
+        display: block;
     }
     
    #introPhoto{
@@ -278,7 +282,11 @@ label,input {
        text-align: center;
        flex-direction: row;
     }
-
+    #projectGroup {
+        margin-left: 25%;
+        margin-right: 25%;
+        display:flex;
+    }
     
     
     #intro {
