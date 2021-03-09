@@ -82,10 +82,16 @@ h2 {
 }
 
 h3 {
-        justify-content: center;
-        text-align: center;
-        font-size: 28px;
-        
+    justify-content: center;
+    text-align: center;
+    font-size: 28px;    
+}
+
+#footerGroup h5 {
+    
+    color: black;
+    font-size: 14px;
+    margin-bottom: 0;
 }
 
 .socialGroup img {
@@ -119,13 +125,14 @@ h3 {
 .navGroup {
     display: flex;
     flex-flow: row wrap;
+    margin-bottom: 10px;
 }
 
 .navItem {
     
     display: inline-flex;
     flex: 1;
-    box-shadow: 0 0 4px #00858a;
+    box-shadow: 0 0 4px #ffffff;
     margin: 0 10px 0 10px ;
     justify-content: center;
     border-radius: 20px;
@@ -209,8 +216,8 @@ label,input {
 }
 
 #footerGroup {
-    margin: 0;
-    padding: 0;
+    margin: auto;
+    padding: auto;
 }
 
 
@@ -256,6 +263,12 @@ label,input {
         margin-right: 25%;
         display: block;
     }
+    .test {
+        margin-left: 25%;
+        margin-right: 25%;
+        display: block;
+        
+    }
     
    #introPhoto{
        padding: 0 15%;
@@ -285,7 +298,7 @@ label,input {
     #projectGroup {
         margin-left: 25%;
         margin-right: 25%;
-        display:flex;
+        flex-flow: row;
     }
     
     
@@ -295,14 +308,13 @@ label,input {
     }
    
     #selfie {
-    
         max-width: 300px;
     }
 
     .projectItem {
         flex-direction: column nowrap;
         font-size: 18px;
-        
         width: 100%;
     }
+
 }
