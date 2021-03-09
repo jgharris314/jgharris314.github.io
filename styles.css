@@ -21,6 +21,11 @@ header img {
     box-shadow: 5px 5px 10px #e46e00;
 }
 
+.prjHeader {
+    margin: 0 auto;
+    display: hidden;
+}
+
 #introPhoto h1 {
     margin-bottom: 3px;
     margin-top: 10px;
@@ -153,7 +158,7 @@ h3 {
 }
 
 #contact {
-    margin-bottom: 20%;
+    margin-bottom: 25%;
 }
 
 #intro {
@@ -191,36 +196,42 @@ h3 {
     width: auto;
 }
 
-.projectItem h2 {
-    align-content: center;
-}
-
 .projectItem a {
     background-color: #ffffff;
 }
 
 .formItem {
-    display: block;
-    width: 90%;
-    
+    display:block;
+    width: 100%;
 }
 
-label,input {
+label,input, textarea {
     display: inline-block;
     width: auto;
 }
 
 #form {
-    display: block;
+    display: flex;
     text-align: right;
+    padding: 0;
+    margin: 0;
+    
 }
 
 #footerGroup {
-    margin: auto;
-    padding: auto;
+    margin: 0;
+    padding: 0;
 }
 
+footer h5 {
+    display: none;
+}
 
+#abt {
+    box-shadow: 0 0 1px  #e46e00;
+    padding: 1%;
+    border-radius: 30px;
+}
 
 
 
@@ -262,6 +273,7 @@ label,input {
         margin-left: 25%;
         margin-right: 25%;
         display: block;
+        
     }
     .test {
         margin-left: 25%;
@@ -291,14 +303,10 @@ label,input {
         
     }
 
-    #projectGroup h2{
-       text-align: center;
-       flex-direction: row;
-    }
     #projectGroup {
         margin-left: 25%;
         margin-right: 25%;
-        flex-flow: row;
+        justify-content: center;
     }
     
     
@@ -317,4 +325,12 @@ label,input {
         width: 100%;
     }
 
+    .flt {
+        position: relative;
+        display: block;
+    }
+    footer h5 {
+        display: block;
+        
+    }
 }
